@@ -1,0 +1,13 @@
+/profiles/otc-logo.jpg
+False
+10
+25
+Harsh Kapadia
+100
+0.85
+Organiser
+150
+Our Tech Community
+110
+(he/him)
+160

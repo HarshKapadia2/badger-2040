@@ -1,0 +1,13 @@
+/profiles/amd-logo.jpg
+False
+10
+30
+Harsh Kapadia
+100
+0.85
+Field Appl. Engineer
+120
+AMD
+180
+(he/him)
+160
