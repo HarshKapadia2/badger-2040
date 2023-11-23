@@ -43,10 +43,10 @@ def marquee_text():
 
         if i >= badger2040.WIDTH:
             i = MARQUEE_START_X_POSN
-        elif badger.pressed(badger2040.BUTTON_C):
+        if badger.pressed(badger2040.BUTTON_C):
             write_original_text()
             break
-        elif badger.pressed(badger2040.BUTTON_B):
+        if badger.pressed(badger2040.BUTTON_B):
             is_warning_displayed = True
             badger.set_update_speed(badger2040.UPDATE_MEDIUM)
             badger_os.warning(badger, "Press 'A' to start looping text from left to right. Press 'C' to stop.")
@@ -64,7 +64,7 @@ def main():
 
         if badger.pressed(badger2040.BUTTON_A):
             marquee_text()
-        elif badger.pressed(badger2040.BUTTON_B):
+        if badger.pressed(badger2040.BUTTON_B):
             if not is_warning_displayed:
                 is_warning_displayed = True
                 badger_os.warning(badger, "Press 'A' to start looping text from left to right. Press 'C' to stop.")
